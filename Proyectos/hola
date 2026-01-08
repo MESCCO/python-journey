@@ -1,0 +1,22 @@
+N = int(input("Ingrese la cantidad de movimientos: "))  # número de movimientos
+pos = input("Ingrese la posición inicial de la moneda (A, B o C): ").upper()  # posición inicial
+
+for i in range(N):
+    mov = int(input(f"Ingrese el movimiento {i+1} (1, 2 o 3): "))  # tipo de movimiento
+    if mov == 1:
+        if pos == "A":
+            pos = "B"
+        elif pos == "B":
+            pos = "A"
+    elif mov == 2:
+        if pos == "B":
+            pos = "C"
+        elif pos == "C":
+            pos = "B"
+    elif mov == 3:
+        if pos == "A":
+            pos = "C"
+        elif pos == "C":
+            pos = "A"
+
+print(pos)

@@ -1,4 +1,7 @@
-# TRISANO MESCCO CONDE 246197
+#UNIVERSIDAD DE SAN ANTONIO ABAB DEL CUSCO
+#ALUMNO: TRISANO MESCCO CONDE
+#CODIGO: 246197
+
 linea1=input().split()
 linea2=input().split()
 codigo1, cantidad1, precio1=int(linea1[0]), int(linea1[1]), float(linea1[2])

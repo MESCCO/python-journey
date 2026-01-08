@@ -1,4 +1,7 @@
-#TRisano mescco conde 246197
+#UNIVERSIDAD DE SAN ANTONIO ABAB DEL CUSCO
+#ALUMNO: TRISANO MESCCO CONDE
+#CODIGO: 246197
+
 P1=input().split()
 P2=input().split()
 X1, Y1=float(P1[0]),float(P1[1])

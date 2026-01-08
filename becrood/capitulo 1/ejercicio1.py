@@ -2,7 +2,7 @@
 #ALUMNO: TRISANO MESCCO CONDE
 #CODIGO: 246197
 
-X=int(input())
-Y=float(input())
-consumo=X/Y
-print("{:.3f}".format(consumo).strip(),"km/l")
+A = int(input())
+B = int(input())
+X = A + B
+print("X =",X)

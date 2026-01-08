@@ -1,0 +1,10 @@
+#UNIVERSIDAD DE SAN ANTONIO ABAB DEL CUSCO
+#ALUMNO: TRISANO MESCCO CONDE
+#CODIGO: 246197
+
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+DIFERENCIA = (A*B - C*D)
+print("DIFERENCA =",DIFERENCIA)
